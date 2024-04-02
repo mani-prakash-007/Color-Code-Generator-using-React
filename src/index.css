@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+Header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+}
+
+.form {
+  margin-top: 10rem;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square{
+  height: 20rem;
+  width: 20rem;
+  margin-top: 5rem;
+  border: 2px solid black;
+  border-radius: .25rem;
+  box-sizing: 2px 2px 5px #000;
+  display: grid;
+  place-content: center;
+}
+
+.square p {
+  text-align: center;
+}
+
+label {
+  position: absolute;
+  left: -99999px;
+}
+
+#colorText {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: aliceblue;
+}
+
+
